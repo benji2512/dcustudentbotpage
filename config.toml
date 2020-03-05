@@ -6,7 +6,7 @@ theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "The DCU Student Bot"
+    name = "the DCU Student Bot"
 
 [params]
 
