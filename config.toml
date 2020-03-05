@@ -1,22 +1,27 @@
 baseURL = "https://dcustudentbot.netlify.com/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "DCU Student Bot"
+title = "The DCU Student Bot"
 theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "DCU Student Bot"
+    name = "Ben Clarke"
 
 [params]
 
     [[params.links]]
         icon = "discord"
         title = "Discord"
-        url = "https://discord.gg/"
+        url = "https://discord.gg/tqHFCG"
 
     [[params.links]]
         icon = "facebook"
         title = "Facebook"
         url = "https://facebook.com/DCUStudentBot"
+
+    [params.colors]
+        background = "#00008B"
+        foreground = "#edf7ff"
+        hover = "#ffba82"
       
