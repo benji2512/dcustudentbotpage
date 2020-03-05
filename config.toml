@@ -9,7 +9,6 @@ buildExpired = false
 relativeURLs = true
 disableRSS = true
 enableRobotsTXT = true
-editor = "nano"
 languageCode = "en"
 language = "en"
 theme = "vncnt-hugo"
@@ -20,13 +19,12 @@ title = "DCU Student Bot"
 
 [permalinks]
   fixed = ":title/"
-  posts = "posts/:slug/"
 
 [params]
   author = "DCU Student Bot"
   description = "Landing Page"
   bio = "Below are the links to the Facebook page and Discord server"
-  avatar = "/static/studentrobot.jpg"
+  avatar = "studentrobot.jpg"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
 
