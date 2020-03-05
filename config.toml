@@ -24,7 +24,7 @@ title = "DCU Student Bot"
   author = "DCU Student Bot"
   description = "Landing Page"
   bio = "Below are the links to the Facebook page and Discord server"
-  avatar = "studentrobot.jpg"
+  avatar = "img/studentrobot.jpg"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
 
