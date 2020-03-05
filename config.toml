@@ -1,34 +1,22 @@
 baseURL = "https://dcustudentbot.netlify.com/"
-# include content marked as draft
-buildDrafts = false
-# include content with publishdate in the future
-buildFuture = false
-# include content already expired
-buildExpired = false
-# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
-relativeURLs = true
-disableRSS = true
-enableRobotsTXT = true
 languageCode = "en"
-language = "en"
-theme = "vncnt-hugo"
+defaultContentLanguage = "en"
 title = "DCU Student Bot"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
-[blackfriday]
-  extensions = ["hardLineBreak"]
-
-[permalinks]
-  fixed = ":title/"
+[Author]
+    name = "DCU Student Bot"
 
 [params]
-  author = "DCU Student Bot"
-  description = "Landing Page"
-  bio = "Below are the links to the:\n Facebook page and Discord server"
-  avatar = "img/studentrobot.jpg"
-  favicon = "img/favicon.ico"
-  error404 = "There is no such page."
 
-  [params.contact]
-    gitlab = "https://gitlab.com/jdoe"
-    facebook = "https://www.facebook.com/DCUStudentBot"
-    discord = "https://discord.gg/tqHFCG"
+    [[params.links]]
+        icon = "discord"
+        title = "Discord"
+        url = "https://discord.gg/"
+
+    [[params.links]]
+        icon = "facebook"
+        title = "Facebook"
+        url = "https://facebook.com/DCUStudentBot"
+      
