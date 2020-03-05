@@ -13,7 +13,7 @@ editor = "nano"
 languageCode = "en"
 language = "en"
 theme = "vncnt-hugo"
-title = "John Doe · Landing Page"
+title = "DCU Student Bot"
 
 [blackfriday]
   extensions = ["hardLineBreak"]
@@ -23,16 +23,15 @@ title = "John Doe · Landing Page"
   posts = "posts/:slug/"
 
 [params]
-  author = "John Doe"
-  email = "john.doe@example.com"
+  author = "DCU Student Bot"
   description = "Landing Page"
-  bio = "First Row. \nSecond Row."
+  bio = "Below are the links to the Facebook page and Discord server"
   avatar = "img/avatar.jpg"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
 
   [params.contact]
-    github = "https://github.com/jdoe"
-    instagram = "https://instagram.com/jdoe"
-    twitter = "https://twitter.com/jdoe"
+    gitlab = "https://gitlab.com/jdoe"
+    facebook = "https://facebook.com"
+    discord = "https://discord.com"
     ello = ""
