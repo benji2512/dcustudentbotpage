@@ -1,12 +1,12 @@
 baseURL = "https://dcustudentbot.netlify.com/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "The DCU Student Bot"
+title = "DCU Student Bot"
 theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "Ben Clarke"
+    name = "The DCU Student Bot"
 
 [params]
 
