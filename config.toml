@@ -13,7 +13,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     [[params.links]]
         icon = "discord"
         title = "Discord"
-        url = "https://discord.gg/tqHFCG"
+        url = "https://discord.gg/T2eWPV"
 
     [[params.links]]
         icon = "facebook"
