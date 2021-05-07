@@ -18,7 +18,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     [[params.links]]
         icon = "facebook"
         title = "Facebook"
-        url = "https://facebook.com/DCUStudentBot"
+        url = "https://facebook.com/DCURuby"
 
     [params.colors]
         background = "#00008B"
